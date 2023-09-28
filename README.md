@@ -5,6 +5,15 @@ Documento di analisi del problema ed elenco funzionalità dell'applicazione Camo
 
 La domotica è un campo in rapida crescita che combina tecnologia e comfort domestico.
 L’obiettivo è sviluppare un’applicazione client-server che permetta agli utenti di controllare tutti gli elettrodomestici, luci, termostati e sistemi di sicurezza direttamente dal dispositivo mobile e da remoto. 
+Gli ambiti e i prodotti applicativi alla domotica sono: 
+lavatrici, forni e frigoriferi smart, robot da cucina
+sistemi di termoregolazione
+sistemi di illuminazione
+sistemi di videosorveglianza e gestione degli accessi (porte, finestre, tapparelle, cancelli e così via)
+sistemi audio/video (entertainment)
+soluzioni SOHO (Small Office Home Office)
+sistemi di irrigazione
+sistemi di assistenza e cura
 
 2. Definizione del Problema:
 
@@ -15,7 +24,9 @@ Sprechiamo anche molti soldi per la bolletta, a causa delle luci lasciate access
 
 Utente Registrato: Per accedere all'applicazione bisognerà registrarsi con un account che potrà essere collegato a Google o Facebook, tramite email e password. 
 
-Interfaccia Utente Intuitiva: L’applicazione deve avere un’interfaccia facile da usare che permetta agli utenti di controllare i loro dispositivi con pochi tocchi.
+Semplice Connesione: L'applicazione, una volta configurata, visualizzerà sul vostro dispositivo tutti gli apparecchi a cui è possibile connettersi grazie all'impianto domotico.  
+
+Interfaccia Utente Intuitiva: L’applicazione avrà un’interfaccia facile da usare, ovvero che permetta agli utenti di controllare i loro dispositivi con pochi tocchi.
 
 Abbonamento per l'utilizzo: L'applicazione presenterà 3 livelli di abbonamento, ogni livello presenta dei vantaggi e più dispotivi da remoto a cui si può accedere. 
 
@@ -27,7 +38,7 @@ Personalizzazione: Gli utenti saranno in grado di personalizzare le impostazioni
 
 Sponsorizzazione: Agli utenti verrano sponsorizzati elettrodomestici, sistemi di sorveglianza e luci da aziende produttrici, affermate ed ecosostenibili. 
 
-Sostenibilità: I prodotti sponsorizzati sono sostenibili per l'ambiente e permettono il risparmio energetico. 
+Sostenibilità: I prodotti sponsorizzati sono sostenibili per l'ambiente e permettono il risparmio energetico tramite il controllo dei parametri funzionali dei dispositivi. 
 
 Collegamento da Remoto: Gli utenti potranno ovviamente collegarsi ai loro elettrodomestici e controllare la loro casa anche se si trovano a migliaia di kilometri di distanza. 
 
