@@ -5,6 +5,7 @@ Documento di analisi del problema ed elenco funzionalità dell'applicazione Camo
 
 La domotica è un campo in rapida crescita che combina tecnologia e comfort domestico.
 L’obiettivo è sviluppare un’applicazione client-server che permetta agli utenti di controllare tutti gli elettrodomestici, luci, termostati e sistemi di sicurezza direttamente dal dispositivo mobile e da remoto. 
+
 Gli ambiti e i prodotti applicativi alla domotica sono:
 
 lavatrici, forni e frigoriferi smart, robot da cucina
