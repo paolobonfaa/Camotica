@@ -44,6 +44,15 @@ Sostenibilità: I prodotti sponsorizzati sono sostenibili per l'ambiente e perme
 
 Collegamento da Remoto: Gli utenti potranno ovviamente collegarsi ai loro elettrodomestici e controllare la loro casa anche se si trovano a migliaia di kilometri di distanza. 
 
+Tutorial: - collega l’unità centrale a una presa e segui la configurazione
+- scollega dispositivi ed elettrodomestici che vuoi controllare
+- collega gli adattatori
+- collega i dispositivi e gli elettrodomestici al proprio adattatore
+- accedi all’unità centrale e attendi che si connetta agli adattatori e dunque ai dispositivi ad essi collegati
+- procedi con l’installazione del programma che ti permette di interagire con i dispositivi
+L'applicazione necessiterà di un software installato su un computer che permette di gestire l'unità centrale e collegare gli adattatori,
+il compito di utilizzare gli elettrodomestici lo svolge l'applicazione
+
 4. Conclusione:
 
 Lo sviluppo di un’applicazione per la domotica presenta molti vantaggi dal punto di vista tecnologico ma allo stesso tempo della sostenibilità.
