@@ -3,7 +3,7 @@ Documento di analisi del problema ed elenco funzionalità dell'applicazione Camo
 
 1. Introduzione:
 
-La domotica è un campo in rapida crescita che combina tecnologia e comfort domestico.
+La domotica è un campo in rapida crescita che combina tecnologia e comfort domestico. Il tipo di domotica che utilizzerò in questa applicazione è di tipo Centralizzato perchè è presente un'unità di controllo.
 L’obiettivo è sviluppare un’applicazione client-server che permetta agli utenti di controllare tutti gli elettrodomestici, luci, termostati e sistemi di sicurezza direttamente dal dispositivo mobile e da remoto. 
 
 Gli ambiti e i prodotti applicativi alla domotica sono:
@@ -28,6 +28,10 @@ Utente Registrato: Per accedere all'applicazione bisognerà registrarsi con un a
 
 Semplice Connesione: L'applicazione, una volta configurata, visualizzerà sul vostro dispositivo tutti gli apparecchi a cui è possibile connettersi grazie all'impianto domotico.  
 
+Produzione Unità Centrale e Adattatori: L'applicazione si occupa di produrre un home automation per rendere realizzabile il progetto, questo consiste nella produzione di un'unità centrale insieme a vari tipi di adattatori (sensori temparatura, luci, valvole) acquistabili separatamente sull'app. 
+
+Software Gestionale: Nel pacchetto dell'applicazione è  compresa e necessaria l'installazione di un software su pc, che permette il controllo dell'unità centrale per poter supervisionare gli adattatori che saranno controllati a loro volta dall'applicazione, per poter utilizzare i servizi desiderati.
+
 Interfaccia Utente Intuitiva: L’applicazione avrà un’interfaccia facile da usare, ovvero che permetta agli utenti di controllare i loro dispositivi con pochi tocchi.
 
 Abbonamento per l'utilizzo: L'applicazione presenterà 3 livelli di abbonamento, ogni livello presenta dei vantaggi e più dispotivi da remoto a cui si può accedere. 
@@ -38,22 +42,20 @@ Sicurezza: Poiché l’applicazione avrà accesso a dispositivi che potrebbero c
 
 Personalizzazione: Gli utenti saranno in grado di personalizzare le impostazioni in base alle loro preferenze individuali.
 
-Sponsorizzazione: Agli utenti verrano sponsorizzati elettrodomestici, sistemi di sorveglianza e luci da aziende produttrici, affermate ed ecosostenibili. 
-
 Sostenibilità: I prodotti sponsorizzati sono sostenibili per l'ambiente e permettono il risparmio energetico tramite il controllo dei parametri funzionali dei dispositivi. 
 
 Collegamento da Remoto: Gli utenti potranno ovviamente collegarsi ai loro elettrodomestici e controllare la loro casa anche se si trovano a migliaia di kilometri di distanza. 
 
-Tutorial: - collega l’unità centrale a una presa e segui la configurazione
+Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permettere la facile installazione dei dispositivi che permettono il collegamento domotico:
+- collega l’unità centrale a una presa e segui la configurazione
 - scollega dispositivi ed elettrodomestici che vuoi controllare
 - collega gli adattatori
 - collega i dispositivi e gli elettrodomestici al proprio adattatore
 - accedi all’unità centrale e attendi che si connetta agli adattatori e dunque ai dispositivi ad essi collegati
 - procedi con l’installazione del programma che ti permette di interagire con i dispositivi
-L'applicazione necessiterà di un software installato su un computer che permette di gestire l'unità centrale e collegare gli adattatori,
-il compito di utilizzare gli elettrodomestici lo svolge l'applicazione
 
 4. Conclusione:
 
 Lo sviluppo di un’applicazione per la domotica presenta molti vantaggi dal punto di vista tecnologico ma allo stesso tempo della sostenibilità.
 Offre l’opportunità di migliorare significativamente il comfort e l’efficienza delle case moderne. 
+Perchè usare la mia app? Questa scelta, anche se può risultare costosa, comporta il risparmio di energia e l'ecosostenibilità a sostegno dell'ambiente. Inoltre è una scelta che rende smart la propria vita, svolgendo vari compiti con dei semplici tocchi.
