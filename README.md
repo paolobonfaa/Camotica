@@ -28,7 +28,7 @@ Semplice Connesione: L'applicazione, una volta configurata, visualizzerà sul vo
 
 Produzione Unità Centrale e Adattatori: L'applicazione si occupa di produrre un home automation per rendere realizzabile il progetto, questo consiste nella produzione di un'unità centrale insieme a vari tipi di adattatori (sensori temparatura, luci, valvole) acquistabili separatamente sull'app. (Funzionale e Sistema) 
 
-Software Gestionale: Nel pacchetto dell'applicazione è  compresa e necessaria l'installazione di un software su pc, che permette il controllo dell'unità centrale per poter supervisionare gli adattatori che saranno controllati a loro volta dall'applicazione, per poter utilizzare i servizi desiderati. (Funzionale e Utente) 
+Software Gestionale: Nel pacchetto dell'applicazione è  compresa e necessaria l'installazione di un software su pc, che permette il controllo dell'unità centrale per poter supervisionare gli adattatori che saranno controllati a loro volta dall'applicazione, per poter utilizzare i servizi desiderati. Il software è gratuito e si può installare tramite un codice che viene fornito insieme all'unità centrale. (Funzionale e Utente) 
 
 Interfaccia Utente Intuitiva: L’applicazione avrà un’interfaccia facile da usare, ovvero che permetta agli utenti di controllare i loro dispositivi con pochi tocchi. (Non funzionale ed Utente)
 
@@ -37,8 +37,6 @@ Abbonamento per l'utilizzo: L'applicazione presenterà 3 livelli di abbonamento,
 Compatibilità con Diversi Dispositivi: L’applicazione deve essere compatibile con una varietà di dispositivi domestici di diversi produttori. (Funzionale e Sistema)
 
 Sicurezza: Poiché l’applicazione avrà accesso a dispositivi che potrebbero compromettere la sicurezza domestica, deve avere robuste misure di sicurezza per proteggere contro accessi non autorizzati. (Dominio e Sistema)
-
-Personalizzazione: Gli utenti saranno in grado di personalizzare le impostazioni in base alle loro preferenze individuali. (Funzionale ed Utente)
 
 Sostenibilità: I prodotti sponsorizzati sono sostenibili per l'ambiente e permettono il risparmio energetico tramite il controllo dei parametri funzionali dei dispositivi. (Dominio e Sistema)
 
@@ -51,11 +49,15 @@ Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permette
 - collega i dispositivi e gli elettrodomestici al proprio adattatore
 - accedi all’unità centrale e attendi che si connetta agli adattatori e dunque ai dispositivi ad essi collegati
 - procedi con l’installazione del programma che ti permette di interagire con i dispositivi
+A disposizione sarà sempre disponibile il supporto tecnico da parte dello staff nel caso in cui ci siano difficoltà nell'installazione.
 
-Regsitrazione ed Acquisti
-<img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Registrazione), (Registrazione)>(Account creato), (Registrazione)>(Navigazione), (Registrazione)<(Inserire Password Efficace), (Account Creato)<(Collegamento a Google/Facebook), [Utente]-(Acquista Prodotti), (Acquista Prodotti)>(Autenticazione), (Acquista Prodotti)<(Acquisto Abbonamento), (Acquisto Abbonamento)>(Scelta Livello Abbonamento), (Acquisto Abbonamento)>(Account Servizi Abbonato), (Acquista Prodotti)<(Acquisto Unità Centrale ed Adattatori), (Acquista prodotti)>(Checkout), (Checkout)<(Aggiungere carta), (Aggiungere Carta)>(Transizione), [Staff]-(Riceve Ordine), (Riceve Ordine)>(Transizione), [Staff]-(Riceve Ordine), [Staff]-(Rifiuta Ordine), (Rifiuta Ordine)>(Prodotto non Disponibile),[Staff]-(Spedisce Ordine), (Spedisce Ordine)>(Imballaggio Unità Principale ed Adattatori), [Sistema Bancario]-(Accetta Transizione), [Sistema Bancario]-(Rifiuta Transizione), (Accetta Transizione)>(Comunica Accettazione), (Rifiuta Transizione)>(Comunica Errore)">
+4. USE CASE DIAGRAMS
 
-4. Conclusione:
+Regsitrazione ed Acquisti:
+<img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Registrazione), (Registrazione)>(Account creato), (Registrazione)>(Navigazione), (Registrazione)<(Inserire Password Efficace), (Registrazione)<(Autenticazione Sicura a 2 Fattori), (Account Creato)<(Collegamento a Google/Facebook), [Utente]-(Acquista Prodotti), (Acquista Prodotti)>(Autenticazione), (Acquista Prodotti)<(Acquisto Abbonamento), (Acquisto Abbonamento)>(Scelta Livello Abbonamento), (Acquisto Abbonamento)>(Account Servizi Abbonato), (Acquista Prodotti)<(Acquisto Unità Centrale ed Adattatori), (Acquista prodotti)>(Checkout), (Checkout)<(Aggiungere carta), (Aggiungere Carta)>(Transizione), [Staff]-(Riceve Ordine), (Riceve Ordine)>(Transizione), [Staff]-(Riceve Ordine), [Staff]-(Rifiuta Ordine), (Rifiuta Ordine)>(Prodotto non Disponibile),[Staff]-(Spedisce Ordine), (Spedisce Ordine)>(Imballaggio Unità Principale ed Adattatori), [Sistema Bancario]-(Accetta Transizione), [Sistema Bancario]-(Rifiuta Transizione), (Accetta Transizione)>(Comunica Accettazione), (Rifiuta Transizione)>(Comunica Errore)">
+
+
+5. Conclusione:
 
 Lo sviluppo di un’applicazione per la domotica presenta molti vantaggi dal punto di vista tecnologico ma allo stesso tempo della sostenibilità.
 Offre l’opportunità di migliorare significativamente il comfort e l’efficienza delle case moderne. 
