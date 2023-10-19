@@ -6,15 +6,6 @@ Documento di analisi del problema ed elenco funzionalità dell'applicazione Camo
 La domotica è un campo in rapida crescita che combina tecnologia e comfort domestico. Il tipo di domotica che utilizzerò in questa applicazione è di tipo Centralizzato perchè è presente un'unità di controllo.
 L’obiettivo è sviluppare un’applicazione client-server che permetta agli utenti di controllare tutti gli elettrodomestici, luci, termostati e sistemi di sicurezza direttamente dal dispositivo mobile e da remoto. 
 
-Gli ambiti e i prodotti applicativi alla domotica sono:
-
-lavatrici, forni e frigoriferi smart, robot da cucina
-sistemi di termoregolazione
-sistemi di illuminazione
-sistemi di videosorveglianza e gestione degli accessi (porte, finestre, tapparelle, cancelli e così via)
-sistemi audio/video (entertainment)
-sistemi di irrigazione
-
 2. Definizione del Problema:
 
 Chiunque ha bisogno di essere in casa per poter utilizzare i propri elettrodomestici, svolgere le mansioni casalinghe, poter accendere o spegnere le luci o accedere alla videosorveglianza.
