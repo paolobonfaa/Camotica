@@ -52,9 +52,7 @@ Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permette
 - accedi all’unità centrale e attendi che si connetta agli adattatori e dunque ai dispositivi ad essi collegati
 - procedi con l’installazione del programma che ti permette di interagire con i dispositivi
 
-<img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Registrazione), (Registrazione)>(Account creato), (Registrazione)>(Navigazione), (Account creato)<(Collegamento a Google/Facebook), [Utente]-(Acquista prodotti), (Acquista prodotti)>(Autenticazione), (Acquista prodotti)<(Acquisto abbonamento), (Acquista prodotti)<(Acquisto Unità centrale ed Adattatori), (Acquista prodotti)>(Checkout), (Checkout)<(Aggiungere carta), (Aggiungere Carta)>(Transizione)">
-
-
+<img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Registrazione), (Registrazione)>(Account creato), (Registrazione)>(Navigazione), (Registrazione)<(Inserire Password Efficace), (Account Creato)<(Collegamento a Google/Facebook), [Utente]-(Acquista Prodotti), (Acquista Prodotti)>(Autenticazione), (Acquista Prodotti)<(Acquisto Abbonamento), (Acquista Prodotti)<(Acquisto Unità Centrale ed Adattatori), (Acquista prodotti)>(Checkout), (Checkout)<(Aggiungere carta), (Aggiungere Carta)>(Transizione), [Staff]-(Riceve Ordine), (Riceve Ordine)>(Transizione), [Staff]-(Riceve Ordine), [Staff]-(Rifiuta Ordine), (Rifiuta Ordine)>(Prodotto non Disponibile),[Staff]-(Spedisce Ordine), (Spedisce Ordine)>(Imballaggio Unità Principale ed Adattatori), [Sistema Bancario]-(Accetta Transizione), [Sistema Bancario]-(Rifiuta Transizione), (Accetta Transizione)>(Comunica Accettazione), (Rifiuta Transizione)>(Comunica Errore)">
 
 4. Conclusione:
 
