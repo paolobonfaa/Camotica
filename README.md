@@ -38,24 +38,25 @@ Compatibilità con Diversi Dispositivi: L’applicazione deve essere compatibile
 
 Sicurezza: Poiché l’applicazione avrà accesso a dispositivi che potrebbero compromettere la sicurezza domestica, deve avere robuste misure di sicurezza per proteggere contro accessi non autorizzati. (Dominio e Sistema)
 
-Sostenibilità: I prodotti sponsorizzati sono sostenibili per l'ambiente e permettono il risparmio energetico tramite il controllo dei parametri funzionali dei dispositivi. (Dominio e Sistema)
+Sostenibilità: I prodotti venduti sono sostenibili per l'ambiente e permettono il risparmio energetico tramite il controllo dei parametri funzionali dei dispositivi. (Dominio e Sistema)
 
 Collegamento da Remoto: Gli utenti potranno ovviamente collegarsi ai loro elettrodomestici e controllare la loro casa anche se si trovano a migliaia di kilometri di distanza. (Funzionale ed Utente)
 
-Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permettere la facile installazione dei dispositivi che permettono il collegamento domotico: (Non funzionale ed Utente)
+Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permettere la facile installazione dei dispositivi che permettono il collegamento domotico: 
 - collega l’unità centrale a una presa e segui la configurazione
 - scollega dispositivi ed elettrodomestici che vuoi controllare
 - collega gli adattatori
 - collega i dispositivi e gli elettrodomestici al proprio adattatore
 - accedi all’unità centrale e attendi che si connetta agli adattatori e dunque ai dispositivi ad essi collegati
 - procedi con l’installazione del programma che ti permette di interagire con i dispositivi
-A disposizione sarà sempre disponibile il supporto tecnico da parte dello staff nel caso in cui ci siano difficoltà nell'installazione.
+A disposizione sarà sempre disponibile il supporto tecnico da parte dello staff nel caso in cui ci siano difficoltà nell'installazione. (Non funzionale ed Utente)
 
 4. USE CASE DIAGRAMS
 
 Regsitrazione ed Acquisti:
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Registrazione), (Registrazione)>(Account creato), (Registrazione)>(Navigazione), (Registrazione)<(Inserire Password Efficace), (Registrazione)<(Autenticazione Sicura a 2 Fattori), (Account Creato)<(Collegamento a Google/Facebook), [Utente]-(Acquista Prodotti), (Acquista Prodotti)>(Autenticazione), (Acquista Prodotti)<(Acquisto Abbonamento), (Acquisto Abbonamento)>(Scelta Livello Abbonamento), (Acquisto Abbonamento)>(Account Servizi Abbonato), (Acquista Prodotti)<(Acquisto Unità Centrale ed Adattatori), (Acquista prodotti)>(Checkout), (Checkout)<(Aggiungere carta), (Aggiungere Carta)>(Transizione), [Staff]-(Riceve Ordine), (Riceve Ordine)>(Transizione), [Staff]-(Riceve Ordine), [Staff]-(Rifiuta Ordine), (Rifiuta Ordine)>(Prodotto non Disponibile),[Staff]-(Spedisce Ordine), (Spedisce Ordine)>(Imballaggio Unità Principale ed Adattatori), [Sistema Bancario]-(Accetta Transizione), [Sistema Bancario]-(Rifiuta Transizione), (Accetta Transizione)>(Comunica Accettazione), (Rifiuta Transizione)>(Comunica Errore)">
-
+Unità Centrale e Software Gestionale:
+<img src="http://yuml.me/diagram/scruffy/usecase/[Corriere]-(Consegna Pacco), (Consegna Pacco)>(Arrivo Ordine Utente), [Utente]-(Installazione Unità Centrale), [Utente]-(Installazione Adattatori), (Installazione Unità Centrale)<(Lettura Tutorial), (Installazione Adattatori<(Lettura Tutorial),(Arrivo Ordine Utente)>(Codice Software Gestionale),[Utente]-(Inserisce Codice Software), (Inserisce Codice Software)>(Scaricare Software Gestionale),[Software Gestionale]-(Connessione Unità Principale), [Software Gestionale]-(Gestione Unità Principale), [Software Gestionale]-(Supervisione Adattatori),[Staff]-(Fornisce Supporto Tecnico), (Fornisce Supporto Tecnico)>(Utente Richiede Supporto)">
 
 5. Conclusione:
 
