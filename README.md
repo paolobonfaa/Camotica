@@ -13,9 +13,7 @@ sistemi di termoregolazione
 sistemi di illuminazione
 sistemi di videosorveglianza e gestione degli accessi (porte, finestre, tapparelle, cancelli e così via)
 sistemi audio/video (entertainment)
-soluzioni SOHO (Small Office Home Office)
 sistemi di irrigazione
-sistemi di assistenza e cura
 
 2. Definizione del Problema:
 
@@ -24,29 +22,29 @@ Sprechiamo anche molti soldi per la bolletta, a causa delle luci lasciate access
 
 3. Requisiti dell’Applicazione:
 
-Utente Registrato: Per accedere all'applicazione bisognerà registrarsi con un account che potrà essere collegato a Google o Facebook, tramite email e password. 
+Utente Registrato: Per accedere all'applicazione bisognerà registrarsi con un account che potrà essere collegato a Google o Facebook, tramite email e password. (Funzionale ed Utente)
 
-Semplice Connesione: L'applicazione, una volta configurata, visualizzerà sul vostro dispositivo tutti gli apparecchi a cui è possibile connettersi grazie all'impianto domotico.  
+Semplice Connesione: L'applicazione, una volta configurata, visualizzerà sul vostro dispositivo tutti gli apparecchi a cui è possibile connettersi grazie all'impianto domotico. (Funzionale e Sistema)
 
-Produzione Unità Centrale e Adattatori: L'applicazione si occupa di produrre un home automation per rendere realizzabile il progetto, questo consiste nella produzione di un'unità centrale insieme a vari tipi di adattatori (sensori temparatura, luci, valvole) acquistabili separatamente sull'app. 
+Produzione Unità Centrale e Adattatori: L'applicazione si occupa di produrre un home automation per rendere realizzabile il progetto, questo consiste nella produzione di un'unità centrale insieme a vari tipi di adattatori (sensori temparatura, luci, valvole) acquistabili separatamente sull'app. (Funzionale e Sistema) 
 
-Software Gestionale: Nel pacchetto dell'applicazione è  compresa e necessaria l'installazione di un software su pc, che permette il controllo dell'unità centrale per poter supervisionare gli adattatori che saranno controllati a loro volta dall'applicazione, per poter utilizzare i servizi desiderati.
+Software Gestionale: Nel pacchetto dell'applicazione è  compresa e necessaria l'installazione di un software su pc, che permette il controllo dell'unità centrale per poter supervisionare gli adattatori che saranno controllati a loro volta dall'applicazione, per poter utilizzare i servizi desiderati. (Funzionale e Utente) 
 
-Interfaccia Utente Intuitiva: L’applicazione avrà un’interfaccia facile da usare, ovvero che permetta agli utenti di controllare i loro dispositivi con pochi tocchi.
+Interfaccia Utente Intuitiva: L’applicazione avrà un’interfaccia facile da usare, ovvero che permetta agli utenti di controllare i loro dispositivi con pochi tocchi. (Non funzionale ed Utente)
 
-Abbonamento per l'utilizzo: L'applicazione presenterà 3 livelli di abbonamento, ogni livello presenta dei vantaggi e più dispotivi da remoto a cui si può accedere. 
+Abbonamento per l'utilizzo: L'applicazione presenterà 3 livelli di abbonamento, ogni livello presenta dei vantaggi e più dispotivi da remoto a cui si può accedere. (Funzionale ed Utente)
 
-Compatibilità con Diversi Dispositivi: L’applicazione deve essere compatibile con una varietà di dispositivi domestici di diversi produttori.
+Compatibilità con Diversi Dispositivi: L’applicazione deve essere compatibile con una varietà di dispositivi domestici di diversi produttori. (Funzionale e Sistema)
 
-Sicurezza: Poiché l’applicazione avrà accesso a dispositivi che potrebbero compromettere la sicurezza domestica, deve avere robuste misure di sicurezza per proteggere contro accessi non autorizzati.
+Sicurezza: Poiché l’applicazione avrà accesso a dispositivi che potrebbero compromettere la sicurezza domestica, deve avere robuste misure di sicurezza per proteggere contro accessi non autorizzati. (Dominio e Sistema)
 
-Personalizzazione: Gli utenti saranno in grado di personalizzare le impostazioni in base alle loro preferenze individuali.
+Personalizzazione: Gli utenti saranno in grado di personalizzare le impostazioni in base alle loro preferenze individuali. (Funzionale ed Utente)
 
-Sostenibilità: I prodotti sponsorizzati sono sostenibili per l'ambiente e permettono il risparmio energetico tramite il controllo dei parametri funzionali dei dispositivi. 
+Sostenibilità: I prodotti sponsorizzati sono sostenibili per l'ambiente e permettono il risparmio energetico tramite il controllo dei parametri funzionali dei dispositivi. (Dominio e Sistema)
 
-Collegamento da Remoto: Gli utenti potranno ovviamente collegarsi ai loro elettrodomestici e controllare la loro casa anche se si trovano a migliaia di kilometri di distanza. 
+Collegamento da Remoto: Gli utenti potranno ovviamente collegarsi ai loro elettrodomestici e controllare la loro casa anche se si trovano a migliaia di kilometri di distanza. (Funzionale ed Utente)
 
-Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permettere la facile installazione dei dispositivi che permettono il collegamento domotico:
+Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permettere la facile installazione dei dispositivi che permettono il collegamento domotico: (Non funzionale ed Utente)
 - collega l’unità centrale a una presa e segui la configurazione
 - scollega dispositivi ed elettrodomestici che vuoi controllare
 - collega gli adattatori
