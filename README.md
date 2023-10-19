@@ -52,6 +52,10 @@ Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permette
 - accedi all’unità centrale e attendi che si connetta agli adattatori e dunque ai dispositivi ad essi collegati
 - procedi con l’installazione del programma che ti permette di interagire con i dispositivi
 
+<img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Registrazione), (Registrazione)>(Account creato), (Registrazione)>(Navigazione), (Account creato)<(Collegamento a Google/Facebook), [Utente]-(Acquista prodotti), (Acquista prodotti)>(Autenticazione), (Acquista prodotti)<(Acquisto abbonamento), (Acquista prodotti)<(Acquisto Unità centrale ed Adattatori), (Acquista prodotti)>(Checkout), (Checkout)<(Aggiungere carta), (Aggiungere Carta)>(Transizione)">
+
+
+
 4. Conclusione:
 
 Lo sviluppo di un’applicazione per la domotica presenta molti vantaggi dal punto di vista tecnologico ma allo stesso tempo della sostenibilità.
