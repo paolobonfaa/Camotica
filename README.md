@@ -9,7 +9,8 @@ L’obiettivo è sviluppare un’applicazione client-server che permetta agli ut
 2. Definizione del Problema:
 
 Chiunque ha bisogno di essere in casa per poter utilizzare i propri elettrodomestici, svolgere le mansioni casalinghe, poter accendere o spegnere le luci o accedere alla videosorveglianza.
-Sprechiamo anche molti soldi per la bolletta, a causa delle luci lasciate accesse o inquiniamo l'ambiente con elettrodomestici datati e non più funzionali. 
+Sprechiamo anche molti soldi per la bolletta, a causa delle luci lasciate accesse o inquiniamo l'ambiente con elettrodomestici datati e non più funzionali.
+Con Camotica e il collegamento da remoto tutte queste cose si possono evitare.
 
 3. Requisiti dell’Applicazione:
 
