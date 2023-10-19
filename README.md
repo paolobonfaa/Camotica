@@ -26,7 +26,9 @@ Interfaccia Utente Intuitiva: L’applicazione avrà un’interfaccia facile da 
 
 Abbonamento per l'utilizzo: L'applicazione presenterà 3 livelli di abbonamento:
 Livello 1: Si ottiene la possibilità di connettersi, tramite gli adattatori,  a 3 dispositivi in casa, utilizzandone 1 da remoto, un adattatore in regalo. 
+
 Livello 2: Si ottiene la possibilità di connettersi, tramite gli adattatori,  a 5 dispositivi in casa, utilizzandone 3 da remoto, ci sono 2 adattatori in regalo e sconti su pezzi nuovi o da sostituire  
+
 Livello 3: Si ottiene la possibilità di connettersi, tramite gli adattatori,  a tutti i dispositivi in casa, utilizzandone 6 da remoto, ci sono 3 adattatori in regalo, sconti su pezzi nuovi o da sostituire, qualsiasi supporto tecnico anche a casa. (Funzionale ed Utente)
 
 Compatibilità con Diversi Dispositivi: L’applicazione deve essere compatibile con una varietà di dispositivi domestici di diversi produttori. (Funzionale e Sistema)
