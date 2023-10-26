@@ -56,8 +56,11 @@ Regsitrazione:
 Acquistare:
  <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Acquista Prodotti), (Acquista Prodotti)>(Autenticazione), (Acquista Prodotti)<(Acquisto Abbonamento), (Acquisto Abbonamento)>(Scelta Livello Abbonamento), (Acquisto Abbonamento)>(Account Servizi Abbonato), (Acquista Prodotti)<(Acquisto Unità Centrale ed Adattatori), (Acquisto Unità Centrale ed Adattatori)>(Aggiungere Carta), (Acquisto Abbonamento)>(Aggiungere Carta), (Aggiungere Carta)>(Transazione), [Staff]-(Riceve Ordine), (Riceve Ordine)>(Transazione), [Staff]-(Rifiuta Ordine), (Rifiuta Ordine)>(Prodotto non Disponibile), [Staff]-(Spedisce Ordine), (Spedisce Ordine)>(Imballaggio Unità Principale ed Adattatori), [Sistema Bancario]-(Accetta Transazione), [Sistema Bancario]-(Rifiuta Transazione), (Accetta Transazione)>(Effettua Pagamento), (Rifiuta Transazione)>(Comunica Errore), (Comunica Errore)<(Carta Scaduta)">
 
-Unità Centrale e Software Gestionale:
-<img src="http://yuml.me/diagram/scruffy/usecase/[Corriere]-(Consegna Pacco), (Consegna Pacco)>(Arrivo Ordine Utente), [Utente]-(Installazione Unità Centrale), [Utente]-(Installazione Adattatori), [Utente]-(Richiede Supporto), [Utente]-(Scaricare Software Gestionale),[Utente]-(Inserisce Codice Software), (Installazione Adattatori)>(Compatibilità Universale),(Installazione Unità Centrale)<(Lettura Tutorial), (Installazione Adattatori)<(Lettura Tutorial), (Arrivo Ordine Utente)>(Codice Software Gestionale),(Scaricare Sofware Gestionale)>(Inserisce Codice Software),[Software Gestionale]-(Connesso Unità Principale), (Connesso Unità Principale)>(Scaricare Software Gestionale), [Software Gestionale]-(Gestione Unità Principale), (Gestione Unità Principale)>(Scaricare Software Gestionale), [Software Gestionale]-(Supervisione Adattatori),(Supervisione Adattatori)>(Scaricare Software Gestionale), [Staff]-(Fornisce Supporto Tecnico Online), (Fornisce Supporto Tecnico Online)>(Richiede Supporto)">
+Software Gestionale:
+ <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Inserisce Codice Software Gestionale),[Utente]-(Scaricare Sofware Gestionale),[Software Gestionale]-(Connesso Unità Principale), (Connesso Unità Principale)>(Scaricare Software Gestionale), [Software Gestionale]-(Gestione Unità Principale), (Gestione Unità Principale)>(Scaricare Software Gestionale), [Software Gestionale]-(Supervisione Adattatori),(Supervisione Adattatori)>(Scaricare Software Gestionale)">
+
+Unità Centrale 
+<img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Installazione Unità Centrale), [Utente]-(Installazione Adattatori), (Installazione Adattatori)>(Compatibilità Universale),(Installazione Unità Centrale)<(Lettura Tutorial), (Installazione Adattatori)<(Lettura Tutorial)">
 
 Gestione Abbonamento:
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Acquisto Abbonamento), (Acquisto Abbonamento)>(Autenticazione), (Acquisto Abbonamento)>(Scelta Livello Abbonamento), (Acquisto Abbonamento)>(Account Servizi Abbonato), (Acquisto Abbonamento)>(Aggiungere Carta), (Aggiungere Carta)>(Transazione), [Utente Abbonato]-(Abbonamento Livello 1), [Utente Abbonato]-(Abbonamento Livello 2), [Utente Abbonato]-(Abbonamento Livello 3), [Utente Abbonato]-(Gestione Adattatori),(Abbonamento Livello 1)>(Controllo 3 Dispositivi), (Abbonamento Livello 1)>(Controllo da Remoto 1 Dispositivo), (Abbonamento Livello 1)>(Adattatore Regalo), (Abbonamento Livello 2)>(Controllo 5 Dispositivi), (Abbonamento Livello 2)>(Controllo da Remoto 3 Dispositivi), (Abbonamento Livello 2)>(2 Adattatori Regalo), (Abbonamento Livello 2)>(Sconti Pezzi), (Abbonamento Livello 3)>(Controllo Dispositivi), (Abbonamento Livello 3)>(Controllo da Remoto 6 Dispositivi),(Abbonamento Livello 3)>(3 Adattatori Regalo), (Abbonamento Livello 3)>(Sconti Pezzi),(Abbonamento Livello 3)>(Supporto Tecnico a Casa)">
@@ -65,7 +68,11 @@ Gestione Abbonamento:
 Collegamento Remoto: 
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente Abbonato]-(Collegamento da Remoto),(Collegamento da Remoto)>(Autenticazione), (Collegamento da Remoto)>(Acquisto Abbonamento),(Collegamento da Remoto)<(Controllo Parametri Funzionali Dispositivi), (Controllo Parametri Funzionali Dispositivi)>(Acquisto Abbonamento)">
 
+Supporto:
+ <img src="http://yuml.me/diagram/scruffy/usecase/[Staff]-(Fornisce Supporto Tecnico Online), (Fornisce Supporto Tecnico Online)>(Richiede Supporto)">
+
 Helper:
+
 <img src="http://yuml.me/diagram/scruffy/usecase/ [Sistema Helper]-(Aiuta Collegare Unità Centrale), [Sistema Helper]-(Aiuta Scollegare Dispositivi), [Sistema Helper]-(Aiuta Collegare Adattatori), [Sistema Helper]-(Aiuta Collegare Dispositivi), [Sistema Helper]-(Aiuta Installare Software), [Sistema Helper]-(Invio Mail Recupero Nome Utente), [Sistema Helper]-(Invio Mail Recupero Password), (Invio Mail Recupero Nome Utente)>(Recupero Nome Utente), (Invio Mail Recupero Password)>(Recupero Password)"> 
 
 5. Conclusione:
