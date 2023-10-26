@@ -59,7 +59,7 @@ Unità Centrale e Software Gestionale:
 Gestione Abbonamento:
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Acquisto Abbonamento), (Acquisto Abbonamento)>(Autenticazione), (Acquisto Abbonamento)>(Scelta Livello Abbonamento), (Acquisto Abbonamento)>(Account Servizi Abbonato), (Acquisto Abbonamento)>(Aggiungere Carta), (Aggiungere Carta)>(Transazione), [Utente Abbonato]-(Abbonamento Livello 1), [Utente Abbonato]-(Abbonamento Livello 2), [Utente Abbonato]-(Abbonamento Livello 3), [Utente Abbonato]-(Gestione Adattatori),(Abbonamento Livello 1)>(Controllo 3 Dispositivi), (Abbonamento Livello 1)>(Controllo da Remoto 1 Dispositivo), (Abbonamento Livello 1)>(Adattatore Regalo), (Abbonamento Livello 2)>(Controllo 5 Dispositivi), (Abbonamento Livello 2)>(Controllo da Remoto 3 Dispositivi), (Abbonamento Livello 2)>(2 Adattatori Regalo), (Abbonamento Livello 2)>(Sconti Pezzi), (Abbonamento Livello 3)>(Controllo Dispositivi), (Abbonamento Livello 3)>(Controllo da Remoto 6 Dispositivi),(Abbonamento Livello 3)>(3 Adattatori Regalo), (Abbonamento Livello 3)>(Sconti Pezzi),(Abbonamento Livello 3)>(Supporto Tecnico a Casa)">
 
-Collegamento Remoto:
+Collegamento Remoto e Helper:
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente Abbonato]-(Collegamento da Remoto),(Collegamento da Remoto)>(Autenticazione), (Collegamento da Remoto)>(Acquisto Abbonamento),(Collegamento da Remoto)<(Controllo Parametri Funzionali Dispositivi), (Controllo Parametri Funzionali Dispositivi)>(Acquisto Abbonamento), [Sistema Helper]-(Aiuta Collegare Unità Centrale), [Sistema Helper]-(Aiuta Scollegare Dispositivi), [Sistema Helper]-(Aiuta Collegare Adattatori), [Sistema Helper]-(Aiuta Collegare Dispositivi), [Sistema Helper]-(Aiuta Installare Software)"> 
 
 5. Conclusione:
