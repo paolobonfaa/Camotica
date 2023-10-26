@@ -69,7 +69,7 @@ Collegamento Remoto:
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente Abbonato]-(Collegamento da Remoto),(Collegamento da Remoto)>(Autenticazione), (Collegamento da Remoto)>(Acquisto Abbonamento),(Collegamento da Remoto)<(Controllo Parametri Funzionali Dispositivi), (Controllo Parametri Funzionali Dispositivi)>(Acquisto Abbonamento)">
 
 Supporto:
- <img src="http://yuml.me/diagram/scruffy/usecase/[Staff]-(Fornisce Supporto Tecnico Online), (Fornisce Supporto Tecnico Online)>(Richiede Supporto)">
+ <img src="http://yuml.me/diagram/scruffy/usecase/ [Utente]-(Richiede Supporto Online), [Utente]-(Richiede Supporto Fisico), [Staff]-(Fornisce Supporto Fisico), [Staff]-(Fornisce Supporto Online)>">
 
 Helper:
 
