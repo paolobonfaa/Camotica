@@ -57,9 +57,11 @@ Acquistare:
  <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Acquista Prodotti), (Acquista Prodotti)>(Autenticazione), (Acquista Prodotti)<(Acquisto Abbonamento), (Acquisto Abbonamento)>(Scelta Livello Abbonamento), (Acquisto Abbonamento)>(Account Servizi Abbonato), (Acquista Prodotti)<(Acquisto Unità Centrale ed Adattatori), (Acquisto Unità Centrale ed Adattatori)>(Aggiungere Carta), (Acquisto Abbonamento)>(Aggiungere Carta), (Aggiungere Carta)>(Transazione), [Staff]-(Riceve Ordine), (Riceve Ordine)>(Transazione), [Staff]-(Rifiuta Ordine), (Rifiuta Ordine)>(Prodotto non Disponibile), [Staff]-(Spedisce Ordine), (Spedisce Ordine)>(Imballaggio Unità Principale ed Adattatori), [Sistema Bancario]-(Accetta Transazione), [Sistema Bancario]-(Rifiuta Transazione), (Accetta Transazione)>(Effettua Pagamento), (Rifiuta Transazione)>(Comunica Errore), (Comunica Errore)<(Carta Scaduta)">
 
 Software Gestionale:
+
  <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Inserisce Codice Software Gestionale),[Utente]-(Scaricare Sofware Gestionale),[Software Gestionale]-(Connesso Unità Principale), (Connesso Unità Principale)>(Scaricare Software Gestionale), [Software Gestionale]-(Gestione Unità Principale), (Gestione Unità Principale)>(Scaricare Software Gestionale), [Software Gestionale]-(Supervisione Adattatori),(Supervisione Adattatori)>(Scaricare Software Gestionale)">
 
-Unità Centrale 
+Unità Centrale:
+
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Installazione Unità Centrale), [Utente]-(Installazione Adattatori), (Installazione Adattatori)>(Compatibilità Universale),(Installazione Unità Centrale)<(Lettura Tutorial), (Installazione Adattatori)<(Lettura Tutorial)">
 
 Gestione Abbonamento:
@@ -69,6 +71,7 @@ Collegamento Remoto:
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente Abbonato]-(Collegamento da Remoto),(Collegamento da Remoto)>(Autenticazione), (Collegamento da Remoto)>(Acquisto Abbonamento),(Collegamento da Remoto)<(Controllo Parametri Funzionali Dispositivi), (Controllo Parametri Funzionali Dispositivi)>(Acquisto Abbonamento)">
 
 Supporto:
+
  <img src="http://yuml.me/diagram/scruffy/usecase/ [Utente]-(Richiede Supporto Online), [Utente]-(Richiede Supporto Fisico), [Staff]-(Fornisce Supporto Fisico), [Staff]-(Fornisce Supporto Online)>">
 
 Helper:
