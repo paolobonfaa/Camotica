@@ -9,8 +9,9 @@ L’obiettivo è sviluppare un’applicazione client-server che permetta agli ut
 2. Definizione del Problema:
 
 Chiunque ha bisogno di essere in casa per poter utilizzare i propri elettrodomestici, svolgere le mansioni casalinghe, poter accendere o spegnere le luci o accedere alla videosorveglianza.
-Sprechiamo anche molti soldi per la bolletta, a causa delle luci lasciate accesse o inquiniamo l'ambiente con elettrodomestici datati e non più funzionali.
-Con Camotica e il collegamento da remoto tutte queste cose si possono evitare.
+Sprechiamo anche molti soldi per la bolletta, a causa delle luci lasciate accesse o inquiniamo l'ambiente con elettrodomestici datati e non più funzionali. Con Camotica e il collegamento da remoto tutte queste cose si possono evitare. 
+L'applicazione è supportata da un'unità centrale e da vari adattatori universali che permettono il collegamento da app a dispositivi domestici, questi prodotti fisici vengono spediti e consegnati al cliente.
+Una volta installata l'unità centrale che poi sostiene gli adattatori, l'applicazione sarà utilizzabile tramite l'acquisto di un abbonamento, con vari livelli disponibili, che permettono di gestire i dispositivi
 
 3. Requisiti dell’Applicazione:
 
