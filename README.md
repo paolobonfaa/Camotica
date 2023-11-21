@@ -102,7 +102,7 @@ Helper:
 │   └── 4.1.3 Visualizzazione Dispositivi Domotici Disponibili<br>
 ├── 5.1 Compatibilità e Sicurezza 20%<br>
 │   ├── 5.1.1 Test di Compatibilità con Dispositivi di Produttori Diversi<br>
-│   ├── 5.1.2 Implementazione Misure di Sicurezza Robuste 
+│   ├── 5.1.2 Implementazione Misure di Sicurezza Robuste <br>
 │   ├── 5.1.3 Test Misure di Sicurezza<br>
 │   ├── 5.1.4 Valutazione Misure di Sicurezza<br>
 │   └── 5.1.5 Autenticazione a 2 Fattori<br>
