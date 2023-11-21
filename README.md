@@ -1,19 +1,19 @@
 # Camotica
 Documento di analisi del problema ed elenco funzionalità dell'applicazione Camotica
 
-1. Introduzione:
+**1. Introduzione:**
 
 La domotica è un campo in rapida crescita che combina tecnologia e comfort domestico. Il tipo di domotica che utilizzerò in questa applicazione è di tipo Centralizzato perchè è presente un'unità di controllo.
 L’obiettivo è sviluppare un’applicazione client-server che permetta agli utenti di controllare tutti gli elettrodomestici, luci, termostati e sistemi di sicurezza direttamente dal dispositivo mobile e da remoto. 
 
-2. Definizione del Problema:
+**2. Definizione del Problema:**
 
 Chiunque ha bisogno di essere in casa per poter utilizzare i propri elettrodomestici, svolgere le mansioni casalinghe, poter accendere o spegnere le luci o accedere alla videosorveglianza.
 Sprechiamo anche molti soldi per la bolletta, a causa delle luci lasciate accesse o inquiniamo l'ambiente con elettrodomestici datati e non più funzionali. Con Camotica e il collegamento da remoto tutte queste cose si possono evitare. 
 L'applicazione è supportata da un'unità centrale e da vari adattatori universali che permettono il collegamento da app a dispositivi domestici, questi prodotti fisici vengono spediti e consegnati al cliente.
 Una volta installata l'unità centrale che poi sostiene gli adattatori, l'applicazione sarà utilizzabile tramite l'acquisto di un abbonamento, con vari livelli disponibili, che permettono di gestire i dispositivi
 
-3. Requisiti dell’Applicazione:
+**3. Requisiti dell’Applicazione:**
 
 Utente Registrato: Per accedere all'applicazione bisognerà registrarsi con un account che potrà essere collegato a Google o Facebook, tramite email e password. (Funzionale ed Utente)
 
@@ -49,7 +49,7 @@ Tutorial: La mia applicazione avrà un tutorial disponibile a tutti per permette
 - procedi con l’installazione del programma che ti permette di interagire con i dispositivi
 A disposizione sarà sempre disponibile il supporto tecnico da parte dello staff nel caso in cui ci siano difficoltà nell'installazione. (Non funzionale ed Utente)
 
-4. USE CASE DIAGRAMS
+**4. USE CASE DIAGRAMS:**
 
 Regsitrazione:
 <img src="http://yuml.me/diagram/scruffy/usecase/[Utente]-(Registrazione), (Registrazione)>(Inserire Mail di Recupero), (Registrazione)>(Inserire Password e Nome Utente), [Utente]-(Login), (Login)>(Inserire Password e Nome Utente), (Registrazione)>(Inserire Telefono), (Inserire Telefono)>(Verifica con SMS), (Registrazione)>(Inserire Cognome), (Registrazione)>(Inserire Nome), (Registrazione)>(Inserire Mail), (Registrazione)>(Inserire Nome Utente), (Registrazione)<(Inserire Password Efficace), (Registrazione)<(Autenticazione Sicura a 2 Fattori), (Login)<(Nome Utente Errato), (Login)<(Password Errata), (Login)<(Recupero Nome Utente), (Login)<(Recupero Password)">
@@ -79,43 +79,43 @@ Helper:
 
 <img src="http://yuml.me/diagram/scruffy/usecase/ [Sistema Helper]-(Aiuta Collegare Unità Centrale), [Sistema Helper]-(Aiuta Scollegare Dispositivi), [Sistema Helper]-(Aiuta Collegare Adattatori), [Sistema Helper]-(Aiuta Collegare Dispositivi), [Sistema Helper]-(Aiuta Installare Software), [Sistema Helper]-(Invio Mail Recupero Nome Utente), [Sistema Helper]-(Invio Mail Recupero Password), (Invio Mail Recupero Nome Utente)>(Recupero Nome Utente), (Invio Mail Recupero Password)>(Recupero Password)"> 
 
-5. Work Breakdown Structure (WBS):
+**5. Work Breakdown Structure (WBS):**
 
-1. CAMOTICA
+1. CAMOTICA<br>
 ├── 1.1 Registrazione Utente 10%<br>
-│   ├── 1.1.1 Implementazione Accesso tramite Account Social (Google, Facebook) 
-│   ├── 1.1.2 Accesso tramite Email e Password
-│   ├── 1.1.3 Configurazione Iniziale dell'Applicazione
-│   └── 1.1.4 Implementazione Nome Utente
-├── 2.1 Produzione Unità Centrale, Adattatori 25%
-│   ├── 2.1.1 Progettazione dell'Unità Centrale 
-│   ├── 2.1.2 Produzione dell'Unità Centrale
-│   ├── 2.1.3 Progettazione di Adattatori (sensori temperatura, luci, valvole) 
-│   ├── 2.1.4 Produzione di Adattatori (sensori temperatura, luci, valvole) 
-│   └── 2.1.5 Acquisto Separato degli Adattatori sull'App
-├── 3.1 Software Gestionale 20% 
-│   ├── 3.1.1 Creazione e Distribuzione del Software per PC 
-│   └── 3.1.2 Integrazione con l'Unità Centrale e l'Applicazione Mobile
-├── 4.1 Abbonamento 10%
-│   ├── 4.1.1 Definizione dei Livelli di Abbonamento 
-│   ├── 4.1.2 Implementazione e Gestione dei Livelli di Abbonamento
-│   └── 4.1.3 Visualizzazione Dispositivi Domotici Disponibili
-├── 5.1 Compatibilità e Sicurezza 20%
-│   ├── 5.1.1 Test di Compatibilità con Dispositivi di Produttori Diversi
+│   ├── 1.1.1 Implementazione Accesso tramite Account Social (Google, Facebook) <br>
+│   ├── 1.1.2 Accesso tramite Email e Password<br>
+│   ├── 1.1.3 Configurazione Iniziale dell'Applicazione<br>
+│   └── 1.1.4 Implementazione Nome Utente<br>
+├── 2.1 Produzione Unità Centrale, Adattatori 25%<br>
+│   ├── 2.1.1 Progettazione dell'Unità Centrale <br>
+│   ├── 2.1.2 Produzione dell'Unità Centrale<br>
+│   ├── 2.1.3 Progettazione di Adattatori (sensori temperatura, luci, valvole) <br>
+│   ├── 2.1.4 Produzione di Adattatori (sensori temperatura, luci, valvole) <br>
+│   └── 2.1.5 Acquisto Separato degli Adattatori sull'App<br>
+├── 3.1 Software Gestionale 20% <br>
+│   ├── 3.1.1 Creazione e Distribuzione del Software per PC <br>
+│   └── 3.1.2 Integrazione con l'Unità Centrale e l'Applicazione Mobile<br>
+├── 4.1 Abbonamento 10%<br>
+│   ├── 4.1.1 Definizione dei Livelli di Abbonamento <br>
+│   ├── 4.1.2 Implementazione e Gestione dei Livelli di Abbonamento<br>
+│   └── 4.1.3 Visualizzazione Dispositivi Domotici Disponibili<br>
+├── 5.1 Compatibilità e Sicurezza 20%<br>
+│   ├── 5.1.1 Test di Compatibilità con Dispositivi di Produttori Diversi<br>
 │   ├── 5.1.2 Implementazione Misure di Sicurezza Robuste 
-│   ├── 5.1.3 Test Misure di Sicurezza
-│   ├── 5.1.4 Valutazione Misure di Sicurezza
-│   └── 5.1.5 Autenticazione a 2 Fattori
-├── 6.1 Sostenibilità 5%
-│   ├── 6.1.1 Analisi dell'Impatto Ambientale dei Prodotti
-│   └── 6.1.2 Implementazione dei Controlli per il Risparmio Energetico
-├── 7.1 Collegamento Remoto 5%
-└── 8.1 Staff Helper 5%
-    ├── 8.1.1 Aiuto Utente 
-    └── 8.1.2 Recupero Dati Utente
+│   ├── 5.1.3 Test Misure di Sicurezza<br>
+│   ├── 5.1.4 Valutazione Misure di Sicurezza<br>
+│   └── 5.1.5 Autenticazione a 2 Fattori<br>
+├── 6.1 Sostenibilità 5%<br>
+│   ├── 6.1.1 Analisi dell'Impatto Ambientale dei Prodotti<br>
+│   └── 6.1.2 Implementazione dei Controlli per il Risparmio Energetico<br>
+├── 7.1 Collegamento Remoto 5%<br>
+└── 8.1 Staff Helper 5%<br>
+    ├── 8.1.1 Aiuto Utente <br>
+    └── 8.1.2 Recupero Dati Utente<br>
 
 
-6. Conclusione:
+**6. Conclusione:**
 
 Lo sviluppo di un’applicazione per la domotica presenta molti vantaggi dal punto di vista tecnologico ma allo stesso tempo della sostenibilità.
 Offre l’opportunità di migliorare significativamente il comfort e l’efficienza delle case moderne. 
