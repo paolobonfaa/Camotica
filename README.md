@@ -79,7 +79,43 @@ Helper:
 
 <img src="http://yuml.me/diagram/scruffy/usecase/ [Sistema Helper]-(Aiuta Collegare Unità Centrale), [Sistema Helper]-(Aiuta Scollegare Dispositivi), [Sistema Helper]-(Aiuta Collegare Adattatori), [Sistema Helper]-(Aiuta Collegare Dispositivi), [Sistema Helper]-(Aiuta Installare Software), [Sistema Helper]-(Invio Mail Recupero Nome Utente), [Sistema Helper]-(Invio Mail Recupero Password), (Invio Mail Recupero Nome Utente)>(Recupero Nome Utente), (Invio Mail Recupero Password)>(Recupero Password)"> 
 
-5. Conclusione:
+5. Work Breakdown Structure (WBS):
+
+1. CAMOTICA
+├── 1.1 Registrazione Utente 10%
+│   ├── 1.1.1 Implementazione Accesso tramite Account Social (Google, Facebook) 
+│   ├── 1.1.2 Accesso tramite Email e Password
+│   ├── 1.1.3 Configurazione Iniziale dell'Applicazione
+│   └── 1.1.4 Implementazione Nome Utente
+├── 2.1 Produzione Unità Centrale, Adattatori 25%
+│   ├── 2.1.1 Progettazione dell'Unità Centrale 
+│   ├── 2.1.2 Produzione dell'Unità Centrale
+│   ├── 2.1.3 Progettazione di Adattatori (sensori temperatura, luci, valvole) 
+│   ├── 2.1.4 Produzione di Adattatori (sensori temperatura, luci, valvole) 
+│   └── 2.1.5 Acquisto Separato degli Adattatori sull'App
+├── 3.1 Software Gestionale 20% 
+│   ├── 3.1.1 Creazione e Distribuzione del Software per PC 
+│   └── 3.1.2 Integrazione con l'Unità Centrale e l'Applicazione Mobile
+├── 4.1 Abbonamento 10%
+│   ├── 4.1.1 Definizione dei Livelli di Abbonamento 
+│   ├── 4.1.2 Implementazione e Gestione dei Livelli di Abbonamento
+│   └── 4.1.3 Visualizzazione Dispositivi Domotici Disponibili
+├── 5.1 Compatibilità e Sicurezza 20%
+│   ├── 5.1.1 Test di Compatibilità con Dispositivi di Produttori Diversi
+│   ├── 5.1.2 Implementazione Misure di Sicurezza Robuste 
+│   ├── 5.1.3 Test Misure di Sicurezza
+│   ├── 5.1.4 Valutazione Misure di Sicurezza
+│   └── 5.1.5 Autenticazione a 2 Fattori
+├── 6.1 Sostenibilità 5%
+│   ├── 6.1.1 Analisi dell'Impatto Ambientale dei Prodotti
+│   └── 6.1.2 Implementazione dei Controlli per il Risparmio Energetico
+├── 7.1 Collegamento Remoto 5%
+└── 8.1 Staff Helper 5%
+    ├── 8.1.1 Aiuto Utente 
+    └── 8.1.2 Recupero Dati Utente
+
+
+6. Conclusione:
 
 Lo sviluppo di un’applicazione per la domotica presenta molti vantaggi dal punto di vista tecnologico ma allo stesso tempo della sostenibilità.
 Offre l’opportunità di migliorare significativamente il comfort e l’efficienza delle case moderne. 
