@@ -82,7 +82,7 @@ Helper:
 5. Work Breakdown Structure (WBS):
 
 1. CAMOTICA
-├── 1.1 Registrazione Utente 10%
+├── 1.1 Registrazione Utente 10%<br>
 │   ├── 1.1.1 Implementazione Accesso tramite Account Social (Google, Facebook) 
 │   ├── 1.1.2 Accesso tramite Email e Password
 │   ├── 1.1.3 Configurazione Iniziale dell'Applicazione
