@@ -111,11 +111,77 @@ Helper:
 │   └── 6.1.2 Implementazione dei Controlli per il Risparmio Energetico<br>
 ├── 7.1 Collegamento Remoto 5%<br>
 └── 8.1 Staff Helper 5%<br>
-    ├── 8.1.1 Aiuto Utente <br>
-    └── 8.1.2 Recupero Dati Utente<br>
+  <br>  ├── 8.1.1 Aiuto Utente <br>
+  <br>  └── 8.1.2 Recupero Dati Utente<br>
+**6. User Stories:**
+
+**Sprint 1 (Settimane 1-3) Totale 105 ore:**
+
+Utente:
+
+Registrazione: (15 ore:)
+Come utente, voglio poter registrarmi all'applicazione utilizzando il mio account Google o Facebook o inserendo manualmente le mie informazioni, così da poter accedere ai servizi offerti dall'app.
+
+Accesso: (10 ore)
+Come utente, voglio poter accedere con un account potendo utilizzare le credenziali di Google o  Facebook.
+
+Semplice Connessione: (15 ore)
+Come utente, voglio che l'applicazione visualizzi gli apparecchi disponibili una volta configurata, così da poter connettere i dispositivi domestici.
+
+Interfaccia Utente Iniziale: (15 ore) 
+Come utente, voglio un'interfaccia intuitiva che mi guidi facilmente attraverso i primi passaggi dell'utilizzo dell'applicazione.
+
+Utente Manager:
+
+Produzione Unità Centrale: (10 ore)
+Come utente manager, voglio che l'applicazione gestisca la produzione dell'unità centrale per l’adattamento ai dispositivi.
+
+Produzione Adattatori: (10 ore)
+Come utente manager, voglio che l'applicazione gestisca la produzione degli adattatori, permettendone l'acquisto separatamente.
+
+Software Gestionale Iniziale:(30 ore)
+Come utente manager, voglio installare il software di controllo dell'unità centrale sul PC utilizzando il codice fornito con l'unità.
+
+Compatibilità Dispositivi Base: (5 ore)
+Come utente manager, voglio che l'applicazione sia compatibile con almeno tre tipi di dispositivi domestici di diversi produttori.
+
+**Sprint 2 (Settimane 4-6) Totale 105 ore:**
+
+Utente:
+
+Abbonamento e Livelli: (35 ore)
+Come utente, voglio poter scegliere tra i tre livelli di abbonamento offerti dall'applicazione e effettuare il pagamento in modo sicuro, così da ottenere i benefici e le funzionalità associate al mio livello di abbonamento.
+
+Tutorial Iniziale: (20 ore)
+Come utente, voglio avere accesso a un tutorial dettagliato per l'installazione dei dispositivi e il collegamento domotico, così da facilitare il processo di configurazione.
+
+Collegamento Remoto Base: (15 ore)
+Come utente, voglio poter accedere e controllare i miei dispositivi da remoto, anche quando mi trovo lontano da casa, così da avere il massimo controllo sulla mia abitazione.
+
+Utente Manager:
+
+Sicurezza: (20 ore)
+Come utente manager, voglio che l'applicazione implementi robuste misure di sicurezza per proteggere l'accesso non autorizzato ai dispositivi collegati, così da garantire la sicurezza domestica dei clienti.
+
+Compatibilità Dispositivi Avanzata: (5 ore)
+Come utente manager, voglio che l'applicazione sia compatibile con almeno cinque tipi di dispositivi domestici di diversi produttori.
+
+Sostenibilità: (5 ore)
+Come utente manager, voglio promuovere la sostenibilità e il risparmio energetico attraverso l'utilizzo di dispositivi controllati dall'applicazione, così da offrire una soluzione ecologica ai clienti.
+
+Testing e Debugging: (5 ore)
+Come responsabile della sicurezza e sviluppatore, voglio testare e risolvere eventuali bug nell'applicazione, in particolare concentrandomi sulla sicurezza dei dati e degli accessi.
+
+Note: 
+Il team di sviluppo ha lavorato per 6 settimane a questi due sprint, con 35 ore di lavoro per settimane.
+La distribuzione delle ore segue la sequenza di Fibonacci per rispettare la regola di stima.
+
+Le user stories sono organizzate per soddisfare i bisogni degli utenti e del team di sviluppo, con attenzione alle fasi iniziali di registrazione e configurazione.
+
+Ulteriori dettagli e fasi successive potrebbero emergere durante lo sviluppo, richiedendo adattamenti allo sprint planning.
 
 
-**6. Conclusione:**
+**7. Conclusione:**
 
 Lo sviluppo di un’applicazione per la domotica presenta molti vantaggi dal punto di vista tecnologico ma allo stesso tempo della sostenibilità.
 Offre l’opportunità di migliorare significativamente il comfort e l’efficienza delle case moderne. 
