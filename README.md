@@ -113,11 +113,11 @@ Helper:
 └── 8.1 Staff Helper 5%<br>
   <br>  ├── 8.1.1 Aiuto Utente <br>
   <br>  └── 8.1.2 Recupero Dati Utente<br>
-**6. User Stories:**
+**6. User Stories:** <br>
 
-**Sprint 1 (Settimane 1-3) Totale 105 ore:**
+**Sprint 1 (Settimane 1-3) Totale 105 ore:** <br>
 
-Utente:
+Utente: <br>
 
 Registrazione: (15 ore:)
 Come utente, voglio poter registrarmi all'applicazione utilizzando il mio account Google o Facebook o inserendo manualmente le mie informazioni, così da poter accedere ai servizi offerti dall'app.
@@ -131,7 +131,7 @@ Come utente, voglio che l'applicazione visualizzi gli apparecchi disponibili una
 Interfaccia Utente Iniziale: (15 ore) 
 Come utente, voglio un'interfaccia intuitiva che mi guidi facilmente attraverso i primi passaggi dell'utilizzo dell'applicazione.
 
-Utente Manager:
+Utente Manager: <br>
 
 Produzione Unità Centrale: (10 ore)
 Come utente manager, voglio che l'applicazione gestisca la produzione dell'unità centrale per l’adattamento ai dispositivi.
@@ -145,9 +145,9 @@ Come utente manager, voglio installare il software di controllo dell'unità cent
 Compatibilità Dispositivi Base: (5 ore)
 Come utente manager, voglio che l'applicazione sia compatibile con almeno tre tipi di dispositivi domestici di diversi produttori.
 
-**Sprint 2 (Settimane 4-6) Totale 105 ore:**
+**Sprint 2 (Settimane 4-6) Totale 105 ore:** <br>
 
-Utente:
+Utente:<br>
 
 Abbonamento e Livelli: (35 ore)
 Come utente, voglio poter scegliere tra i tre livelli di abbonamento offerti dall'applicazione e effettuare il pagamento in modo sicuro, così da ottenere i benefici e le funzionalità associate al mio livello di abbonamento.
@@ -158,7 +158,7 @@ Come utente, voglio avere accesso a un tutorial dettagliato per l'installazione 
 Collegamento Remoto Base: (15 ore)
 Come utente, voglio poter accedere e controllare i miei dispositivi da remoto, anche quando mi trovo lontano da casa, così da avere il massimo controllo sulla mia abitazione.
 
-Utente Manager:
+Utente Manager: <br>
 
 Sicurezza: (20 ore)
 Come utente manager, voglio che l'applicazione implementi robuste misure di sicurezza per proteggere l'accesso non autorizzato ai dispositivi collegati, così da garantire la sicurezza domestica dei clienti.
@@ -172,7 +172,7 @@ Come utente manager, voglio promuovere la sostenibilità e il risparmio energeti
 Testing e Debugging: (5 ore)
 Come responsabile della sicurezza e sviluppatore, voglio testare e risolvere eventuali bug nell'applicazione, in particolare concentrandomi sulla sicurezza dei dati e degli accessi.
 
-Note: 
+**Note:** <br> 
 Il team di sviluppo ha lavorato per 6 settimane a questi due sprint, con 35 ore di lavoro per settimane.
 La distribuzione delle ore segue la sequenza di Fibonacci per rispettare la regola di stima.
 
