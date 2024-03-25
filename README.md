@@ -133,7 +133,7 @@ Come utente, voglio un'interfaccia intuitiva che mi guidi facilmente attraverso 
 
 Utente Manager: <br>
 
-Produzione Unità Centrale: (10 ore)
+Produzione Unità Cetrale: (10 ore)
 Come utente manager, voglio che l'applicazione gestisca la produzione dell'unità centrale per l’adattamento ai dispositivi.
 
 Produzione Adattatori: (10 ore)
@@ -180,8 +180,29 @@ Le user stories sono organizzate per soddisfare i bisogni degli utenti e del tea
 
 Ulteriori dettagli e fasi successive potrebbero emergere durante lo sviluppo, richiedendo adattamenti allo sprint planning.
 
+**7. Multitenancy**
 
-**7. Conclusione:**
+La strategia per implementare la multitenancy, che consente a più utenti di utilizzare l'applicazione contemporaneamente in un ambiente isolato e sicuro:
+
+1. Isolamento dei Dati: Ogni utente registrato avrà il proprio spazio dati isolato dagli altri utenti. Ciò significa che le informazioni dell'utente, come i dispositivi domestici, le impostazioni, gli abbonamenti e altri dati pertinenti, saranno archiviati in modo separato nel database.
+
+2. Autenticazione e Autorizzazione: Ogni utente avrà le proprie credenziali di accesso (email e password o collegamento tramite Google/Facebook). È essenziale implementare un robusto sistema di autenticazione per garantire che solo gli utenti autorizzati possano accedere ai propri dati. Inoltre, l'autorizzazione è configurata in modo che gli utenti possono accedere solo ai dati e alle funzionalità pertinenti al loro account.
+
+4. Scalabilità Orizzontale: La piattaforma è progettata per scalare orizzontalmente per gestire l'aumento del numero di utenti. Il sistema è in grado di distribuire il carico di lavoro su più istanze di server per garantire prestazioni affidabili anche con un grande numero di utenti attivi.
+
+5. Personalizzazione dell'Interfaccia Utente: Consentire agli utenti di personalizzare la propria esperienza utente in termini di layout, colori o organizzazione delle funzionalità per migliorare l'usabilità e la soddisfazione dell'utente.
+
+6. Monitoraggio e Ispezione dei Dati: Implementazione di strumenti di monitoraggio e ispezione dei dati per garantire la sicurezza e la privacy degli utenti. 
+
+7. Gestione degli Abbonamenti: Ogni utente avrà il proprio piano di abbonamento con i relativi limiti e privilegi. Implementare un sistema robusto per gestire gli abbonamenti, inclusi pagamenti, rinnovi e aggiornamenti dei piani.
+
+8. Supporto Tecnico Personalizzato: Si offre supporto tecnico personalizzato per gli utenti, in modo che possano ottenere assistenza specifica in base alle loro esigenze e problematiche.
+
+9. Audit Logging: Registrazione di tutte le attività degli utenti per fini di sicurezza e conformità. Gli audit log consentono di tenere traccia di chi ha accesso a quali dati e quali azioni vengono eseguite sui dati.
+
+10. Test Approfonditi della Sicurezza: Si effettua test di sicurezza approfonditi per identificare e risolvere potenziali vulnerabilità nel sistema. 
+
+**8. Conclusione:**
 
 Lo sviluppo di un’applicazione per la domotica presenta molti vantaggi dal punto di vista tecnologico ma allo stesso tempo della sostenibilità.
 Offre l’opportunità di migliorare significativamente il comfort e l’efficienza delle case moderne. 
