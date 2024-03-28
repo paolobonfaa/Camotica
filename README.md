@@ -203,6 +203,7 @@ La strategia per implementare la multitenancy, che consente a più utenti di uti
 10. Test Approfonditi della Sicurezza: Si effettua test di sicurezza approfonditi per identificare e risolvere potenziali vulnerabilità nel sistema. 
 
 **8. Pivot:**
+
 Abbiamo deciso di bussare alla porta di tutte le aziende che utilizzano la nostra tecnologia, ovvero la domotica, questo per poter ampliare il nostro mercato ed espanderci anche sul lato aziendale. Il nostro Pivot è di tipo Channel, cambiamo così il canale di clienti a cui proviamo a vendere il nostro prodotto. Ci basiamo sulla tecnica di produrre personalmente i dispositivi per la domotica alle aziende che ne hanno bisogno, questa produzione sarà una produzione su larga scala e per questo ci consentirà di abbassare i nostri costi sui prodotti vendendo i pezzi "all'ingrosso".
 Infatti il pacchetto di Software gestionale + Unità Centrale + 20 adattatori sarà messo a disposizione per 200 euro, questo nostro pacchetto ci permetterà di guadagnare sulle aziende, inoltre per fidelizzare il cliente offriremo anche un servizio dal nostro Staff per l'installazione, la manutenzione e la riparazione dei prodotti. 
 Per quanto riguarda l'abbonamento abbiamo scelto di crearne uno di tipo aziendale così da rimanere in quell'ottica. Infatti sarà possibile, dall'applicazione, controllare tutti gli strumenti necessari per l'azienda sia sul posto che da remoto ad un prezzo di 300 euro annuali. 
